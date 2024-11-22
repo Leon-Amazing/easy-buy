@@ -1,14 +1,14 @@
 <template>
-  <div class="product-two bg-#f9f5f0 px-100 py-20">
-    <div class="nav flex justify-between items-center px-100px border-b-1px border-color-#c49d84">
+  <div class="product-two bg-#f9f5f0 px-20vw py-5vw">
+    <div class="nav flex justify-between items-center px-10vw border-b-1px border-color-#c49d84">
       <div class="nav-item flex flex-col items-center p-b-15px cursor-pointer" :class="{ active: index === activeIndex }" @click="handleNav(index)" v-for="(nav, index) in navs" :key="index">
-        <img class="mb-40px w-80px h-80px object-cover border-rd-50%" :src="nav.image" alt="nav" />
+        <img class="mb-2vw w-5vw h-5vw object-cover border-rd-50%" :src="nav.image" alt="nav" />
         <span class="color-#606060">{{ nav.name }}</span>
       </div>
     </div>
 
     <div class="list flex flex-wrap justify-between items-center">
-      <div class="item w-20% h-300px m-r-10px m-t-50px p-b-30px cursor-pointer" v-for="(item, index) in list" :key="index">
+      <div class="item w-20% h-15vw m-r-10px m-t-50px p-b-30px cursor-pointer" v-for="(item, index) in list" :key="index">
         <div class="item-img w-full h-full overflow-hidden p-2px flex justify-center items-center">
           <img class="w-90%" :src="item.image" />
         </div>
@@ -90,7 +90,7 @@ function handleNav(index: number) {
   &.active {
     @apply position-relative;
     &::after {
-      @apply content-empty position-absolute left-50% translate-x--50% bottom--1.5px h-3px w-120px bg-#4a4640 border-rd-1.5px;
+      @apply content-empty position-absolute left-50% translate-x--50% bottom--1.5px h-3px w-7vw bg-#4a4640 border-rd-1.5px;
     }
   }
 }

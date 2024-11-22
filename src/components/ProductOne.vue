@@ -1,13 +1,13 @@
 <template>
-  <div class="product-one bg-#e2d5c5 px-100 py-20">
-    <div class="headline flex justify-between items-center mb-20px">
+  <div class="product-one bg-#e2d5c5 px-20vw py-5vw">
+    <div class="headline flex justify-between items-center mb-2vw">
       <div ref="titleRef" class="title font-size-8 color-#4a4640">{{ getTitle() }}</div>
       <div class="discover-more font-size-5 color-#4a4640 font-bold cursor-pointer">DISCOVER MORE →</div>
     </div>
 
     <div ref="listRef" class="list flex justify-between items-center">
-      <div class="item w-240px h-320px cursor-pointer" v-for="item in list" :key="item.image">
-        <img class="image w-full h-full object-cover mb-20px" :src="item.image" />
+      <div class="item w-12vw h-17vw cursor-pointer" v-for="item in list" :key="item.image">
+        <img class="image w-full h-full object-cover mb-1vw" :src="item.image" />
         <div class="des font-size-16px">{{ item.name }}</div>
       </div>
     </div>
