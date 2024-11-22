@@ -1,0 +1,12 @@
+// 自定义css变量名
+:root {
+  --base-color-default: #081d4c; // 主色调
+  --base-color-gray: rgba(0, 0, 0, 0.65);
+
+  --de-nav-height: 370px;
+  --de-footer-height: 249px;
+  --de-max-vw: 2560px;
+  --de-min-width: 1480px;
+  --de-content-width: 1280px;
+  --de-header-bg: #f9f5f0;
+}

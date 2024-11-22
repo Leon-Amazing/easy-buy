@@ -1,0 +1,24 @@
+// 获取视口宽度
+@mixin calcVw($param: 100) {
+  --hy-vw: calc(#{$param} / 100 * min(100vw, var(--hy-max-vw)));
+}
+
+/* Webkit浏览器 */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f1f1f1;
+  border-radius: 2px;
+}
+
+/* Firefox浏览器 */
+::-moz-scrollbar {
+  width: 5px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #f1f1f1;
+  border-radius: 2px;
+}
