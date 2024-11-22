@@ -10,6 +10,6 @@ export function getIdAndName() {
   });
 }
 
-export function getTitle() {
-  return Mock.mock('@title(3, 5)');
+export function getTitle(type = 1) {
+  return type == 1 ? Mock.mock('@title(3, 5)') : Mock.mock('@title(8, 12)');
 }
