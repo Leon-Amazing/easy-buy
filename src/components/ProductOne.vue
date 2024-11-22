@@ -30,16 +30,16 @@ function randomNumber() {
 function getList() {
   list.value = [
     {
-      image: `/easy-buy/img/product1/p (${randomNumber()}).webp`,
+      image: `/img/product1/p (${randomNumber()}).webp`,
     },
     {
-      image: `/easy-buy/img/product1/p (${randomNumber()}).webp`,
+      image: `/img/product1/p (${randomNumber()}).webp`,
     },
     {
-      image: `/easy-buy/img/product1/p (${randomNumber()}).webp`,
+      image: `/img/product1/p (${randomNumber()}).webp`,
     },
     {
-      image: `/easy-buy/img/product1/p (${randomNumber()}).webp`,
+      image: `/img/product1/p (${randomNumber()}).webp`,
     },
   ];
   list.value = list.value.map((item: any, index: number) => Object.assign({}, item, getIdAndName().data[index]));
