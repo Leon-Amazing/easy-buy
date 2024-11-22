@@ -32,9 +32,9 @@ import 'swiper/css/a11y';
 import { getTitle } from '@/mock.js';
 const modules = [Navigation, Autoplay, A11y];
 const slides = [
-  { image: '/img/Banner_01.png', des: getTitle() },
-  { image: '/img/Banner_02.jpg', des: getTitle() },
-  { image: '/img/Banner_03.png', des: getTitle() },
+  { image: '/easy-buy/img/Banner_01.png', des: getTitle() },
+  { image: '/easy-buy/img/Banner_02.jpg', des: getTitle() },
+  { image: '/easy-buy/img/Banner_03.png', des: getTitle() },
 ];
 </script>
 

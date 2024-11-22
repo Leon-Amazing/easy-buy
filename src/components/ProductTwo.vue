@@ -23,16 +23,16 @@ import { getIdAndName } from '@/mock.js';
 import { ref } from 'vue';
 const navs: any = ref([
   {
-    image: '/img/product2/nav1.png',
+    image: '/easy-buy/img/product2/nav1.png',
   },
   {
-    image: '/img/product2/nav2.png',
+    image: '/easy-buy/img/product2/nav2.png',
   },
   {
-    image: '/img/product2/nav3.png',
+    image: '/easy-buy/img/product2/nav3.png',
   },
   {
-    image: '/img/product2/nav4.png',
+    image: '/easy-buy/img/product2/nav4.png',
   },
 ]);
 
@@ -51,28 +51,28 @@ getNavs();
 function getList() {
   list.value = [
     {
-      image: `/img/product2/p (${randomNumber()}).png`,
+      image: `/easy-buy/img/product2/p (${randomNumber()}).png`,
     },
     {
-      image: `/img/product2/p (${randomNumber()}).png`,
+      image: `/easy-buy/img/product2/p (${randomNumber()}).png`,
     },
     {
-      image: `/img/product2/p (${randomNumber()}).png`,
+      image: `/easy-buy/img/product2/p (${randomNumber()}).png`,
     },
     {
-      image: `/img/product2/p (${randomNumber()}).png`,
+      image: `/easy-buy/img/product2/p (${randomNumber()}).png`,
     },
     {
-      image: `/img/product2/p (${randomNumber()}).png`,
+      image: `/easy-buy/img/product2/p (${randomNumber()}).png`,
     },
     {
-      image: `/img/product2/p (${randomNumber()}).png`,
+      image: `/easy-buy/img/product2/p (${randomNumber()}).png`,
     },
     {
-      image: `/img/product2/p (${randomNumber()}).png`,
+      image: `/easy-buy/img/product2/p (${randomNumber()}).png`,
     },
     {
-      image: `/img/product2/p (${randomNumber()}).png`,
+      image: `/easy-buy/img/product2/p (${randomNumber()}).png`,
     },
   ];
   list.value = list.value.map((item: any, index: number) => Object.assign({}, item, getIdAndName().data[index]));

@@ -13,4 +13,4 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/Leon-Amazing/resume.git master:gh-pages
+git push -f https://github.com/Leon-Amazing/easy-buy.git master:gh-pages
